@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Main DIV */
+    .mobileMenu-main{
+        height: 100%;
+        width: 100%;
+        background: white;
+    }
+
+/* Header / Close */
+    .mobileMenu-header{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .mobileMenu-close{
+        margin-right: 20px;
+        color: #0e1111;
+    }
+
+/* Main Nav */
+    .mobileMenu-nav{
+        height: calc(100% - 50px);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobileMenu-nav-btn{
+        background: none;
+        outline: none;
+        border: none;
+        text-align: left;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        transform: scale(1, .9);
+        color: #0e1111;
+    }
+
+/* Auth */
+    .mobileMenu-auth{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .mobileMenu-auth-btn{
+        height: 40px;
+        width: 35%;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        transform: scale(1, .9);
+        border: none;
+        background: none;
+        outline: none;
+        border-radius: 2px;
+    }
+
+    .auth-signup{
+        margin-left: 20px;
+        background: #0e1111;
+        color: white;
+    }
+
+    .auth-login{
+        margin-right: 20px;
+        border: 1px solid rgb(150, 150, 150);
+        color: #0e1111;
+    }

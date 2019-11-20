@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Main DIV */
+    .header-main{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 999;
+    }
+
+/* Left side header */
+    .header-left{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .header-hamburger{
+        color: #0e1111;
+    }
+
+    .header-title{
+        margin-left: 12px;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        color: #0e1111;
+    }
+
+/* Right side header */
+    .header-right{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    /* Auth Buttons */
+        .header-auth-btn{
+            background: transparent;
+            border: none;
+        }
+
+        .header-btn-text{
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            transform: scale(1, .9);
+            color: #0e1111;
+        }
+
+/* Slide out menu */
+    .header-menu{
+        height: 100vh;
+        width: 75%;
+        position: fixed;
+        right: 100%;
+        transition: .6s;
+        z-index: 1000;
+    }
+
+    .header-menu-slide{
+        right: 25%;
+        z-index: 1000;
+    }
+
+/* Transparent div to cover main page */
+    .header-menu-transparent{
+        height: 100vh;
+        width: 100%;
+        background: rgb(0,0,0,.5);
+        position: fixed;
+        transition: .6s;
+        z-index: 1000;
+    }
+
+    .header-menu-hide{
+        height: 100vh;
+        width: 100%;
+        background: transparent;
+        position: fixed;
+        transition: .6s;
+        z-index: -1;
+    }
